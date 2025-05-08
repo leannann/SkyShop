@@ -28,6 +28,10 @@ public class StorageService {
         initStorage();
     }
 
+    public Optional<Product> getProductById(UUID id) {
+        return Optional.ofNullable(products.get(id));
+    }
+
     private void initStorage() {
         // Продукты
         Product product1 = new SimpleProduct(UUID.randomUUID(), "Часы", 2500);

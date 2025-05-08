@@ -9,8 +9,8 @@ import java.util.UUID;
 public class Article implements Searchable {
 
     private final UUID id;
-    String title;
-    String content;
+    private final String title;
+    private final String content;
 
     public Article(UUID id, String title, String content) {
         this.id = id;

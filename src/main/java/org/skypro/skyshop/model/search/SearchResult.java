@@ -2,9 +2,9 @@ package org.skypro.skyshop.model.search;
 
 public class SearchResult {
 
-    private final String id;          // ID результата поиска
-    private final String name;        // Имя (например, название продукта или статьи)
-    private final String contentType; // Тип контента (например, "PRODUCT" или "ARTICLE")
+    private final String id;
+    private final String name;
+    private final String contentType;
 
     public SearchResult(String id, String name, String contentType) {
         this.id = id;

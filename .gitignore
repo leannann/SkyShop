@@ -1,5 +1,6 @@
 HELP.md
 target/
+.mvn/wrapper/
 .idea/
 *.iml/
 !.mvn/wrapper/maven-wrapper.jar
