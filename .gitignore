@@ -3,10 +3,12 @@ target/
 .mvn/wrapper/
 .idea/
 *.iml/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
+**/src/main/**/target/
+**/src/test/**/target/
+.gitignore/
+.gitattributes/
+.mvn/
+mvnw.cmd/
 ### STS ###
 .apt_generated
 .classpath
