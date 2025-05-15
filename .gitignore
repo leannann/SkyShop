@@ -8,6 +8,7 @@ target/
 .gitignore/
 .gitattributes/
 .mvn/
+.gitattributes
 mvnw.cmd/
 ### STS ###
 .apt_generated
