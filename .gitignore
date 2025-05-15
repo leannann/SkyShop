@@ -10,6 +10,7 @@ target/
 .mvn/
 .gitattributes
 mvnw.cmd/
+mvnw
 ### STS ###
 .apt_generated
 .classpath
